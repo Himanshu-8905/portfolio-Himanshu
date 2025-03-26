@@ -1,0 +1,69 @@
+[
+  {
+    "id": "realtime-code-editor",
+    "name": "Realtime-Code-Editor",
+    "description": "A Realtime code collaboration system using web sockets",
+    "img": "js-furniture.png",
+    "techstack": [
+      "React JS",
+      "JavaScript",
+      "Tailwind CSS",
+      "Socket IO"
+    ],
+    "featured": true,
+    "links": {
+      "github": "https://github.com/Himanshu-8905/code_editor",
+      "live": "https://code-editor-22ot.onrender.com"
+    }
+  },
+  {
+    "id": "CLAI",
+    "name": "CLAI",
+    "description": "A AI based question answering terminal",
+    "img": "ecommerce-admin.png",
+    "techstack": [
+      "React JS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Hugging Face"
+    ],
+    "featured": true,
+    "links": {
+      "github": "https://github.com/Himanshu-8905/cli-ai",
+      "live": "https://github.com/Himanshu-8905/cli-ai"
+    }
+  },
+  {
+    "id": "IIITBH-ECELL",
+    "name": "IIITBH-ECELL",
+    "description": "Make Fully Responsive college's ECELL frontend",
+    "img": "jz-resource-hub.png",
+    "techstack": ["React JS", "JavaScript", "Tailwind CSS"],
+    "featured": true,
+    "links": {
+      "github": "https://github.com/gymkhanaIIITBH/SGC_ECELL_Frontend",
+      "live": "https://ecell-rose-two.vercel.app"
+    }
+  },
+  {
+    "id": "twitter-clone",
+    "name": "Twitter-clone",
+    "description": "A fullStack Twitter-clone",
+    "img": "pcrs.png",
+    "techstack": [
+      "Node JS",
+      "JavaScript",
+      "Express",
+      "React JS",
+      "MongoDB",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Google Mail"
+    ],
+    "featured": true,
+    "links": {
+      "github": "https://github.com/Himanshu-8905/twitter_clone",
+      "live": "https://twitter-clone-i7ah.onrender.com"
+    }
+  }
+]
