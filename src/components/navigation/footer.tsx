@@ -1,31 +1,17 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { Link as ScrollLink } from 'react-scroll'
 
 import { socials } from './social'
 
 const Footer = () => {
   const pathname = usePathname()
-  const isHomePage = pathname === '/'
 
   const currentYear = new Date().getFullYear()
 
   return (
     <footer className="flex h-[300px] flex-col items-center justify-center space-y-8 border-t border-[var(--foreground)] py-20">
-      {/* <div className="cursor-pointer">
-        {isHomePage ? (
-          <ScrollLink to="hero" smooth={true} duration={500} delay={200}>
-            <Image src="/logo-light.svg" alt="logo" width={28} height={28} />
-          </ScrollLink>
-        ) : (
-          <Link href="/">
-            <Image src="/logo-light.svg" alt="logo" width={28} height={28} />
-          </Link>
-        )}
-      </div> */}
       <div className="flex flex-row space-x-6">
         {socials.map((social) => (
           <div
@@ -36,7 +22,7 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className="text-medium text-neutral-400">
+      <div className="text-[15px] sm:text-medium text-neutral-400 flex justify-center items-center ">
         © {currentYear} • Himanshu Kumawat • All Rights Reserved.
       </div>
       <div className="flex space-x-2">

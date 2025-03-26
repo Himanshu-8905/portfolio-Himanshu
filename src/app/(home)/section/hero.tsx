@@ -11,7 +11,7 @@ import { FlipWords } from '@/components/flip-words'
 
 const Hero = () => {
   const firstName = ['H', 'i', 'm', 'a', 'n', 's','h','u']
-  const lastName = ['k', 'u', 'm', 'a', 'w', 'a', 't']
+  const lastName = ['K', 'u', 'm', 'a', 'w', 'a', 't']
 
   const heroVariants: Variants = {
     initial: {
@@ -96,9 +96,9 @@ const Hero = () => {
         variants={letterVariants}
         initial="initial"
         animate="animate"
-        className="flex space-x-4"
+        className="flex space-x-3"
       >
-        <div className="text-4xl font-bold  sm:text-5xl md:text-7xl">
+        <div className="text-3xl font-bold  sm:text-5xl md:text-7xl">
           {firstName.map((letter, index) => (
             <motion.span
               variants={letterChildVariants}
@@ -109,7 +109,7 @@ const Hero = () => {
             </motion.span>
           ))}
         </div>
-        <div className="text-4xl font-bold  sm:text-5xl md:text-7xl">
+        <div className="text-3xl font-bold  sm:text-5xl md:text-7xl">
           {lastName.map((letter, index) => (
             <motion.span
               variants={letterChildVariants}
