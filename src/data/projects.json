@@ -3,7 +3,7 @@
     "id": "realtime-code-editor",
     "name": "Realtime-Code-Editor",
     "description": "A Realtime code collaboration system using web sockets",
-    "img": "js-furniture.png",
+    "img": "codebuddies.png",
     "techstack": [
       "React JS",
       "JavaScript",
@@ -20,7 +20,7 @@
     "id": "CLAI",
     "name": "CLAI",
     "description": "A AI based question answering terminal",
-    "img": "ecommerce-admin.png",
+    "img": "clai.png",
     "techstack": [
       "React JS",
       "TypeScript",
@@ -37,7 +37,7 @@
     "id": "IIITBH-ECELL",
     "name": "IIITBH-ECELL",
     "description": "Make Fully Responsive college's ECELL frontend",
-    "img": "jz-resource-hub.png",
+    "img": "ecell.png",
     "techstack": ["React JS", "JavaScript", "Tailwind CSS"],
     "featured": true,
     "links": {
@@ -49,7 +49,7 @@
     "id": "twitter-clone",
     "name": "Twitter-clone",
     "description": "A fullStack Twitter-clone",
-    "img": "pcrs.png",
+    "img": "twitterclone.png",
     "techstack": [
       "Node JS",
       "JavaScript",
