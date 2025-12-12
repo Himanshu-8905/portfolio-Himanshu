@@ -8,10 +8,8 @@ import {
   MoveDirection,
   OutMode,
 } from '@tsparticles/engine'
-// import { loadAll } from "@tsparticles/all"; // if `loadAll`, install the "@tsparticles/all" package too.
+
 import { loadFull } from 'tsparticles' // if `loadFull`, install the "tsparticles" package too.
-// import { loadSlim } from "@tsparticles/slim"; // if`loadSlim`, install the "@tsparticles/slim" package too.
-// import { loadBasic } from "@tsparticles/basic"; // if `loadBasic`, install the "@tsparticles/basic" package too.
 import particlesConfig from '@/config/particles-nasa.json' // change type of particles on @/config directory
 
 const BackgroundParticles = () => {
